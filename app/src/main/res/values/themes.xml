@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.ConversorTemperaturaA2" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- Color principal -->
+        <item name="colorPrimary">@color/primary</item>
+
+        <!-- Color del texto/iconos sobre el primary -->
+        <item name="colorOnPrimary">@color/onPrimary</item>
+
+        <!-- Fondo de la app -->
+        <item name="android:colorBackground">@color/background</item>
+
+        <!-- Color del texto principal -->
+        <item name="android:textColor">@color/textPrimary</item>
+
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/textPrimary</item>
+
+    </style>
+
+    <style name="Theme.ConversorTemperaturaA2" parent="Base.Theme.ConversorTemperaturaA2" />
+
+</resources>
