@@ -25,7 +25,6 @@ class MainActivity : AppCompatActivity() {
     private lateinit var btnK: Button
     private lateinit var btnR: Button
     private lateinit var tvResultado: TextView
-
     private lateinit var inputTemp: EditText
 
     override fun onCreate(savedInstanceState: Bundle?) {
