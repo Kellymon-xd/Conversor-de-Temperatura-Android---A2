@@ -55,7 +55,7 @@ class MainActivity : AppCompatActivity() {
 
                 val value = s.toString().toDoubleOrNull()
 
-                val inRange = value != null && value in -273.15..100.00
+                val inRange = value != null && value > -273.15
                 val isValid = inRange
 
                 btnF.isEnabled = isValid
@@ -65,7 +65,7 @@ class MainActivity : AppCompatActivity() {
                 if (value == null) {
                     tvResultado.text = ""
                 } else if (!inRange) {
-                    tvResultado.text = "⚠ Fuera de rango (-273.15 - 100)"
+                    tvResultado.text = "⚠ Valor por debajo del mínimo (-273.15)"
                 } else {
                     tvResultado.text = ""
                 }
