@@ -61,7 +61,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:backgroundTint="@color/button_color"
-                android:text="Celsius a Fahrenheit"
+                android:text="Celsius a Fahrenheit (°F)"
                 android:textColor="@color/onPrimary" />
 
             <Button
@@ -70,7 +70,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:backgroundTint="@color/button_color"
-                android:text="Celsius a Kelvin"
+                android:text="Celsius a Kelvin (°K)"
                 android:textColor="@color/onPrimary" />
 
             <Button
@@ -79,7 +79,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
                 android:backgroundTint="@color/button_color"
-                android:text="Celsius a Rankine"
+                android:text="Celsius a Rankine (°R)"
                 android:textColor="@color/onPrimary" />
         </LinearLayout>
 
