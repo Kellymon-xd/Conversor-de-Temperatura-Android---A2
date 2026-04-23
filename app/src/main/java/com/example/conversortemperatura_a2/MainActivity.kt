@@ -1,3 +1,10 @@
+/** Integrantes:
+ * KELLY BEITIA, 8-1023-152 (COORDINADORA)
+ * JORGE SARMIENTO, 3-757-1758
+ * LEONARDO CASTRO, 8-1032-1264
+ * MARIAM HARRIS 1-756-2331
+ */
+
 package com.example.conversortemperatura_a2
 
 import android.os.Bundle
